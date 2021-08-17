@@ -51,12 +51,12 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
-
+    // // Activate SimpleLightbox plugin for portfolio items
+    // new SimpleLightbox({
+    //     elements: '#portfolio a.portfolio-box'
+    // });
 });
+
 document.addEventListener("DOMContentLoaded", function(){
     // make it as accordion for smaller screens
     if (window.innerWidth > 992) {
@@ -89,4 +89,4 @@ document.addEventListener("DOMContentLoaded", function(){
     
     }
     // end if innerWidth
-    }); 
+}); 
